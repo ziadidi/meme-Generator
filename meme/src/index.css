@@ -4,7 +4,7 @@
 
 body {
   font-family: "Karla", sans-serif;
-  margin: 0;
+  margin: 5% 10%;
 }
 
 main {
@@ -40,10 +40,12 @@ main {
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
+  margin-top: 5%;
   margin-bottom: 17px;
 }
 
 .form--input {
+  width: 100%;
   font-family: "Karla", sans-serif;
   border-radius: 5px;
   border: 1px solid #D5D4D8;
